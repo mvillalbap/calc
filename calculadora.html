@@ -13,6 +13,11 @@
 		var num = document.getElementById('n1');
 		num.value = num.value * num.value;
 	}
+
+	function cubo(){
+		var num = document.getElementById('n1');
+		num.value = num.value * num.value * num.value;
+	}
 	</script>
 </head>
 
@@ -21,6 +26,7 @@
 	<input id='n1' type='text' onclick='vaciar()'>
 	<p>
 		<button onclick='cuadrado()'>x<sup>2</sup></button>
+		<button onclick='cubo()'>x<sup>3</sup></button>
 	</p>
 </body>
 
